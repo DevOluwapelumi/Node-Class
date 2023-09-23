@@ -21,3 +21,21 @@ Inheritance: If used as a base class, it could define a set of default behaviors
 
 Sample Pseudocode for a NODE Class:
 Here's a simplified pseudocode representation of how a "NODE" class might look in a programming language:
+
+class NODE:
+
+    def __init__(self, data):
+        self.data = data
+        self.next = None  # For linked lists
+
+    def set_data(self, data):
+        self.data = data
+
+    def get_data(self):
+        return self.data
+
+    def set_next(self, node):
+        self.next = node
+
+    def get_next(self):
+        return self.next
